@@ -58,7 +58,7 @@ foreach( $cars as $car )
   
 }
 ?>
-
+<?php echo '<h1>Exercice 6</h1>'; ?>
   <form action="session.php" method="post">
  <p>Votre email : <?php $_SESSION['email'] ?> <input type="text" name="email" /></p>
  <p>Votre mot de passe : <input type="password" name="mdp" /></p>
